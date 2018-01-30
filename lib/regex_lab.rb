@@ -7,7 +7,7 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
- list = word.scan(/\bun[a-zA-Z]*ing\b/)
+ list = text.scan(/\bun[a-zA-Z]*ing\b/)
  list
 end
 
